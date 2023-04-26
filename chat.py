@@ -63,5 +63,9 @@ def generar_conversacion():
     respuesta = respuesta[0].replace('<s>','').replace('</s>','')
     respuesta = ingles_espanol(respuesta)
     print(f'->ChatBot : {respuesta}')
+contador = 5
+i=1
+while i<=5:
 
-generar_conversacion()
+  generar_conversacion()
+  i+=1
